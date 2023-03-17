@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Dominion</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;400&display=swap" rel="stylesheet">
+</head>
+<body>
+    <div class="top">
+        <div class="nav">
+            <div class="nav-left">
+                <img src="img/logo.png">
+            </div> 
+            <div class="nav-right">
+                <ul class="nav-right-upper">
+                    <li><button class="btn-corp">Corporate</button></li>
+                    <li><input type="text"></li>
+                    <li><img src="img/search_icon.png"></li>
+                </ul>
+                <ul class="nav-links">
+                    <li><a href="#">Customers</a></li>
+                    <li><a href="#">Products</a></li>
+                    <li><a href="#">Investors</a></li>
+                    <li><a href="#">News</a></li>
+                    <li><a href="#">Careers</a></li>
+                    <li><a href="#">Civism</a></li>
+                    <li><a href="#">About Dominion</a></li>
+                </ul>    
+            </div>
+        </div>
+    </div>
+
+    <div class="container">
+        <div class="upper-row">
+            <div class="manage-acc">
+                <div class="header">
+                    <h3>Manage Your Account</h3>
+                    <h4>View/pay ebills, analyze usage and more.</h4>
+                </div>
+                    <div class="acc-body">
+                        <label class="bold-text" for="uname">User Name:</label><br>
+                        <input type="text" name="uname">
+                        <h5><a href="#">Forgot your username?</a></h5>
+                        <label class="bold-text" for="pwd">Password:</label><br>
+                        <input type="password" name="pwd">
+                        <h5><a href="#">Forgot your password?</a></h5>
+                        <button id="btn-signin">Sign In</button>
+                        <a href="#">Register</a>
+                    </div>
+                    <div class="new-customer">
+                        <h1><button id="btn-nc">I am a New Customer</button></h1>
+                </div>
+            </div>
+            <div class="picture">
+                <img src="img/main_pic.png" id="main-pic">
+            </div>
+        </div>
+        <div class="news-update">
+            <p class="bold-text">News Update: <span id="news-update-color"> Dominion to Build Solar Power Project in Georgia</span></p> 
+        </div>
+        <div class="small-boxes">
+            <div id="box-1">
+                <img src="img/data_center.png">
+                <div id="box-content">
+                    <p class="bold-text">Dominion Data Center Services</p>
+                    <p id="blue-text">Data centers are growing segment of our Virginia customer base.</p>
+                </div>
+            </div>
+            <div id="box-2">
+                <img src="img/green_solutions.png">
+                <div id="box-content">
+                    <p class="bold-text">Green Solutions</p>
+                    <p id="blue-text">Save money, use energy efficiently and help the environment.</p>
+                </div>
+            </div>
+            <div id="box-3">
+                <img src="img/promise.png">
+                <div id="box-content">
+                    <p class="bold-text">A Promise is a Promise</p>
+                    <p id="blue-text"> If Gov. Malloy breaks his word, Connecticut electric rates could rise.</p>
+                </div>
+            </div>
+        </div>
+        <div id="footer">
+            <ul id="footer-body-left">
+                <li>Help</li>
+                <li>Legal Terms and Conditions</li>
+                <li>Privacy</li>
+                <li>Para Servirlos</li>
+                <li>Contact Us</li>
+                <li>Diversity</li>
+            </ul>
+            <ul id="footer-body-right">
+                <li>NYSE : (April 3, 2013)</li>
+                <li class="bold-text">D 58.75</li>
+                <li class="bold-text colored-text">+0.13</li>
+            </ul>
+        </div>
+    </div>
+
+</body>
+</html>
